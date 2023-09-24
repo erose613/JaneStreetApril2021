@@ -56,7 +56,6 @@ int main() {
     int bestSwap[2] = { 0 };
     for (int i = 0; i < 16; i++) {
         for (int j = i + 1; j < 16; j++) {
-            // Clear memoization table for each iteration
             for (int k = 0; k < 16; k++) {
                 for (int l = 0; l < 16; l++) {
                     memo[k][l] = 0;
